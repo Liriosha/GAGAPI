@@ -45,6 +45,11 @@ It connects to a Grow a Garden WebSocket to receive real-time updates and expose
     uvicorn main:app --host 0.0.0.0 --port 80
     ```
 
+4. Or using Docker
+    ```bash
+    docker compose up --build
+    ```
+
 
 ## 🤝 Contributing
 

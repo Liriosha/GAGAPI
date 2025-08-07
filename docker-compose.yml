@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  gagapi:
+    build: .
+    container_name: gagapi
+    ports:
+      - "80:80"
+    restart: unless-stopped
