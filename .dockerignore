@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python egg metadata
+*.egg-info/
+*.egg
+
+# Pip environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyenv
+.python-version
+
+# VS Code settings
+.vscode/
+
+# MacOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Logs
+*.log
+
+# Compiled files
+*.out
+*.o
+*.a
+*.log
+
+# Build artifacts
+build/
+dist/

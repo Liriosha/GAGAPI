@@ -45,6 +45,20 @@ It connects to a Grow a Garden WebSocket to receive real-time updates and expose
     uvicorn main:app --host 0.0.0.0 --port 80
     ```
 
+## 🐳 Run with Docker (Optional but Recommended)
+
+You can run this API using Docker to avoid setting up Python and dependencies manually.
+
+### 📦 Using Docker Compose
+
+This method builds and starts everything with one command:
+
+  ```bash
+  git clone https://github.com/Liriosha/GAGAPI.git
+  cd GAGAPI
+  docker compose up --build
+  ```
+
 
 ## 🤝 Contributing
 
